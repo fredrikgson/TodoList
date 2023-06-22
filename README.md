@@ -9,3 +9,7 @@ https://fredrikgson-todolist.netlify.app/
   <img src="preview/desktop.png" height="350" title="Todo list on desktop">
   <figcaption>Todo list on desktop</figcaption>
 </figure>
+<figure>
+  <img src="preview/mobile.png" height="350" title="Todo list on mobile">
+  <figcaption>Todo list on mobile</figcaption>
+</figure>
