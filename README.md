@@ -5,11 +5,13 @@ This is a classic todo list project made in a couple of hours using React. It ha
 https://fredrikgson-todolist.netlify.app/
 
 ### Preview
-<figure align="center">
-  <img src="preview/desktop.png" height="350" title="Todo list on desktop">
-  <figcaption>Todo list on desktop</figcaption>
-</figure>
-<figure>
-  <img src="preview/mobile.png" height="350" title="Todo list on mobile">
-  <figcaption>Todo list on mobile</figcaption>
-</figure>
+<div>
+  <figure align="center">
+    <img src="preview/desktop.png" height="250" title="Todo list on desktop">
+    <figcaption>Todo list on desktop</figcaption>
+  </figure>
+  <figure>
+    <img src="preview/mobile.png" height="250" title="Todo list on mobile">
+    <figcaption>Todo list on mobile</figcaption>
+  </figure>
+</div>
