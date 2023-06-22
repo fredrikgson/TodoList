@@ -3,3 +3,9 @@ This is a classic todo list project made in a couple of hours using React. It ha
 
 ### Try it out
 https://fredrikgson-todolist.netlify.app/
+
+### Preview
+<p align="center">
+  <img src="preview/desktop.png" height="350" title="Todo list on desktop">
+  <img src="preview/mobile.png" height="350" title="Todo list on mobile">
+</p>
