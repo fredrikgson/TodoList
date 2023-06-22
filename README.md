@@ -6,7 +6,7 @@ https://fredrikgson-todolist.netlify.app/
 
 ### Preview
 <div>
-  <figure align="center">
+  <figure>
     <img src="preview/desktop.png" height="250" title="Todo list on desktop">
     <figcaption>Todo list on desktop</figcaption>
   </figure>
