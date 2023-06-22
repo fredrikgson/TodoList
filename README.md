@@ -6,6 +6,6 @@ https://fredrikgson-todolist.netlify.app/
 
 ### Preview
 <p align="center">
-  <img src="preview/desktop.png" height="350" title="Todo list on desktop">
+  <img src="preview/desktop.png" height="350" title="Todo list on desktop" style="padding-left: 20px">
   <img src="preview/mobile.png" height="350" title="Todo list on mobile">
 </p>
