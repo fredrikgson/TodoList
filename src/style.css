@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+:root{
+    --darkerblue: #0e1f91;
+    --darkblue: #F1C27B;
+    --lightblue: #fff6b0;
+    --lighterblue: #fffdf1;
+    --darkpink: #acb6f7;
+    --lightpink: #e3e6fc;
+}
+
+html {
+    background-color: var(--darkblue);
+    font-family: "Roboto Condensed";
+}
+
+.page{
+    width: 100vw;
+}
+.wrapper{
+    width: 80vw;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 1px;
+    padding-bottom: 4px;
+    background-color: var(--lightblue);
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+h1{
+    text-align: center;
+    color: var(--darkblue);
+}
+
+.todo-form{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#item-input{
+    border: none;
+    outline: 0;
+    height: 35px;
+    width: 65%;
+    margin-right: 12px;
+    border-radius: 12px;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 10px;
+    color: var(--darkerblue);
+}
+#add-item-button{
+    border: none;
+    border-radius: 20px;
+    height: 38px;
+    width: 38px;
+    background-color: var(--darkpink);
+    transition: background-color 0.2s;
+}
+#add-item-button:hover{
+    background-color: var(--lightpink);
+}
+
+hr{
+    margin-top: 30px;
+    border: 2px solid var(--darkblue);
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+li{
+    margin-left: 0px;
+    background-color: var(--lighterblue);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+li p span{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--darkerblue);
+}
+
+.todo-item-checkbox{
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--darkpink);
+    margin-right: 8px;
+}
+
+.delete-button{
+    margin-left: auto;
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(220,20,60,0);
+    font-weight: 700;
+    color: var(--darkpink);
+
+    transition: background-color 0.2s;
+    transition: color 0.2s;
+}
+.delete-button:hover{
+    background-color:crimson;
+    color:white;
+}
+
+#list-empty-message{
+    text-align: center;
+    color: var(--darkerblue);
+}
