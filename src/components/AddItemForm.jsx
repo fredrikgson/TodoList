@@ -6,7 +6,7 @@ const AddItemForm = ({onSubmit}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if(formInput === "") return;
+        if(formInput.trim() === "") return;
         onSubmit(formInput);
         setFormInput("");
       };
